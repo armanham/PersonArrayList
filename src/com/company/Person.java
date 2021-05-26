@@ -10,6 +10,7 @@ public class Person {
         setName ( name );
         setSurname ( surname );
         setDataOfBirth ( dataOfBirth );
+        setAge( age );
     }
 
     public Person () {
