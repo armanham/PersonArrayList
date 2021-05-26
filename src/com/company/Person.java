@@ -52,11 +52,4 @@ public class Person {
     public void setDataOfBirth ( int dataOfBirth ) {
         this.dataOfBirth = dataOfBirth;
     }
-
-//    private int calculateAge(int dataOfBirth) {
-//        int age = 2021 - dataOfBirth;
-//        return age;
-//    }
-
-
 }
