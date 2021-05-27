@@ -51,6 +51,10 @@ public class Person {
     }
 
     public void setDataOfBirth ( int dataOfBirth ) {
-        this.dataOfBirth = dataOfBirth;
+        if (dataOfBirth >= 1950 && dataOfBirth <= 2020) {
+            this.dataOfBirth = dataOfBirth;
+        } else {
+            System.out.println("Invalid data of birth!");
+        }
     }
 }
